@@ -36,7 +36,10 @@
     <div class="row g-5">
       <div class="col-md-6">
         <h2 class="text-body-emphasis">Tampil Input Data</h2>
-        <p>Nama : </p>
+        <p>Nama : Asiwa nura izzati</p>
+        <p>Nim  : G111220020</p>
+        <p>Umur : 19</p>
+        <p>status : Dewasa </p>
       </div>
     </div>
   </main>
@@ -46,3 +49,4 @@
 </div>
 </body>
 </html>
+

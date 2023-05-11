@@ -32,19 +32,27 @@
   <main>
     <h1 class="text-body-emphasis">Ujian Pemrograman Web</h1>
     <hr class="col-3 col-md-2 mb-5">
-
+ 
     <div class="row g-5">
       <div class="col-md-6">
         <h2 class="text-body-emphasis">Form Input Data</h2>
         <p>Masukan data yang akan di proses</p>
         <form>
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Nama</label>
-                <input type="text" class="form-control" id="nama" aria-describedby="nama">
+                <label for="exampleInputNama" class="form-label">Nama</label>
+                <input type="text" class="form-control" id="Nama" aria-describedby="Nama">
             </div>
             <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Umur</label>
-                <input type="number" class="form-control" id="umur">
+                <label for="exampleInputNim10" class="form-label">Nim</label>
+                <input type="text-number" class="form-control" id="Nim">
+            </div>
+             <div class="mb-3">
+                <label for="exampleInputUmur10-20" class="form-label">Umur</label>
+                <input type="number" class="form-control" id="Umur">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputStatus" class="form-label">Status</label>
+                <input type="text" class="form-control" id="Status">
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
@@ -52,8 +60,10 @@
     </div>
   </main>
   <footer class="pt-5 my-5 text-body-secondary border-top">
-    Ujian Pemrograman Web 2023
+   Ujian Pemrograman Web 2023
   </footer>
 </div>
 </body>
 </html>
+
+

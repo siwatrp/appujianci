@@ -23,15 +23,16 @@ class Welcome extends CI_Controller
      */
     public function index()
     {
-        // ini komentar
+        // ujian
         $blade = new Blade(VIEWPATH, APPPATH . 'cache');
         echo $blade->make('form', [])->render();
     }
 
     public function tampil()
     {
-        $nama = 'tata';
+        $nama  = 'tata';
         $blade = new Blade(VIEWPATH, APPPATH . 'cache');
         echo $blade->make('tampil', ['nama' => $nama])->render();
     }
 }
+
