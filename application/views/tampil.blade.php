@@ -33,13 +33,13 @@
     <h1 class="text-body-emphasis">Ujian Pemrograman Web</h1>
     <hr class="col-3 col-md-2 mb-5">
 
-    <div class="row g-5">
+    <div class  ="row g-5">
       <div class="col-md-6">
         <h2 class="text-body-emphasis">Tampil Input Data</h2>
-        <p>Nama : Asiwa nura izzati</p>
-        <p>Nim  : G111220020</p>
-        <p>Umur : 19</p>
-        <p>status : Dewasa </p>
+        <p>Nama : {{ $nama  }}</p>
+        <p>Nim : {{ $nim }}</p>
+        <p>Umur : {{ $umur }}</p>
+        <p>Status : {{ $status }}</p>
       </div>
     </div>
   </main>
@@ -49,4 +49,3 @@
 </div>
 </body>
 </html>
-

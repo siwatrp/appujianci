@@ -37,23 +37,20 @@
       <div class="col-md-6">
         <h2 class="text-body-emphasis">Form Input Data</h2>
         <p>Masukan data yang akan di proses</p>
-        <form>
+        <form method="post" action="{{ site_url('welcome/tampil') }}">
             <div class="mb-3">
-                <label for="exampleInputNama" class="form-label">Nama</label>
-                <input type="text" class="form-control" id="Nama" aria-describedby="Nama">
+                <label for="exampleInputEmail1" class="form-label">Nama</label>
+                <input type="text" class="form-control" name="namaku" id="nama" aria-describedby="nama">
             </div>
             <div class="mb-3">
-                <label for="exampleInputNim10" class="form-label">Nim</label>
-                <input type="text-number" class="form-control" id="Nim">
+                <label for="exampleInputEmail1" class="form-label">Nim</label>
+                <input type="text" class="form-control" name="nim" id="nim" aria-describedby="nama">
             </div>
              <div class="mb-3">
-                <label for="exampleInputUmur10-20" class="form-label">Umur</label>
-                <input type="number" class="form-control" id="Umur">
+                <label for="exampleInputPassword1" class="form-label">Umur</label>
+                <input type="number" class="form-control" name="umur" id="umur">
             </div>
-            <div class="mb-3">
-                <label for="exampleInputStatus" class="form-label">Status</label>
-                <input type="text" class="form-control" id="Status"aria-describedby="Status">
-            </div>
+            
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
       </div>
